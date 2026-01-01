@@ -9,6 +9,22 @@ affects trader behavior and performance using historical trading data.
 ## Datasets
 1. Bitcoin Market Sentiment Dataset (Fear / Greed)
 2. Historical Trader Data from Hyperliquid
+   ## Dataset Access
+
+The datasets used in this project are larger than GitHub’s file size limit.
+
+To run this project:
+
+1. Download the datasets from the following source:
+   - Bitcoin Fear & Greed Index (public dataset)
+   - Hyperliquid historical trading data
+
+2. Place the downloaded CSV files inside the `data/` folder:
+   - fear_greed_index.csv
+   - historical_data.csv
+
+The notebook will run correctly once the files are added locally.
+
 
 ## Analysis Performed
 - Data cleaning and preprocessing
